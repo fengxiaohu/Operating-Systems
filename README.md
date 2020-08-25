@@ -21,7 +21,7 @@
 
   - Frequently relinquishes control and must depend on the processor to allow it to regain control
 
-
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/2_1.JPG)
 
 
 
@@ -48,19 +48,19 @@
 
 基于cpu执行指令的速度远远超过了I/O设备的处理速度，在程序执行的整个生命周期中，大量的时间被浪费在了等待I/O操作上。
 
-![](Operating-System\2_3.jpg)
+
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/2_3.JPG)
 
 多道批处理系统通过一次将准备运行的多个job载入内存中，当一个正在执行中的job需要I/O时，可以转去执行另外一个job。这种近似于并发执行的方式大大提高了程序执行的速率。
 
-![](Operating-System\2_4.jpg)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/2_4.JPG)
 
 此外，由于一次将准备运行的多个job载入内存，进一步需要内存管理，同时在多个job间进行切换也需要使用调度算法。
 
 ### 什么是进程
 
 一个正在执行中程序的实例。
-
-![](Operating-System\2_5.jpg)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/2_5.jpg)
 
 同时进程还包括了以下三个组件
 
@@ -146,7 +146,7 @@ over the modularity of the application and the timing of application-related
 
 events.
 
-![](Operating-System\2_6.jpg)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/2_6.JPG)
 
 多线程技术面对的是同时运行许多互相独立的应用的场景。典型的例子如数据库。
 
@@ -160,11 +160,11 @@ events.
 
 ![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.2.JPG)
 
-![](Operating-System\3.3.jpg)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.3.JPG)
 
 ### 基于下图简单描述五个状态
 
-![](Operating-System\3.4.jpg)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.4.JPG)
 
 
 
