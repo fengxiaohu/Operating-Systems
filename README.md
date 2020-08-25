@@ -21,9 +21,7 @@
 
   - Frequently relinquishes control and must depend on the processor to allow it to regain control
 
-    
 
-![](Operating-System\2_1.jpg)
 
 
 
@@ -160,7 +158,7 @@ events.
 
 将单个进程的执行抽象为一系列的二进制的指令，这样我们就可以直观地从地址的变化上观察程序的执行。
 
-![](Operating-System\3.2.jpg)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.2.JPG)
 
 ![](Operating-System\3.3.jpg)
 
