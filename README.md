@@ -181,7 +181,7 @@ events.
 
 - null -> new 一个新的进程被创建
 
-  ![](Operating-System\3.5.jpg)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.5.JPG)
 
   
 
@@ -191,7 +191,7 @@ events.
 
 - Running->exit: 当进程结束或者时被OS撤销时，进入exit。通常来说可能因为以下原因进入到exit状态
 
-  ![](Operating-System\3.6.JPG)
+  ![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.6.JPG)
 
 - Running->ready
 
@@ -217,7 +217,7 @@ events.
 
 ### 为什么下图有两个阻塞态
 
-![](Operating-System\3.7.JPG)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.7.JPG)
 
 
 
@@ -257,7 +257,7 @@ events.
 
 下面是挂起的原因
 
-![](Operating-System\3.8.JPG)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.8.JPG)
 
 ### 操作系统维护哪些状态表来对哪些类型的实体进行管理
 
@@ -266,13 +266,13 @@ events.
 - file tables 
 - process tables
 
-![](Operating-System\3.9.JPG)
+![](https://github.com/fengxiaohu/Operating-Systems/blob/master/Operating-System/3.9.JPG)
 
 ### 进程镜像由哪些元素组成
 
 进程相关联的程序，数据，堆栈，以及属性参数构成进程镜像
 
-![](Operating-System\3.10.JPG)
+![](./Operating-System/3.10.JPG)
 
 ```undefined
 {% asset_img 3.10.JPG process mirrors % }
@@ -283,7 +283,7 @@ events.
 - Identifies
 - process state information
 - process control information
-  ![](Operating-System\3.11.JPG)
+  ![](./Operating-System/3.11.JPG)
 
 ### 为什么需要两种模式（user mode/kernel mode）
 
@@ -291,7 +291,7 @@ events.
 
 内核模式所提供的一些功能
 
-![](Operating-System\3.12.JPG)
+![](./Operating-System/3.12.JPG)
 
 ### 操作系统与用户进程的关联
 
@@ -299,7 +299,7 @@ events.
 - 嵌套在用户进程中
 - 基于进程的操作系统
 
-![](Operating-System\3.13.JPG)
+![](./Operating-System/3.13.JPG)
 
 
 
@@ -315,7 +315,7 @@ events.
 
 - 创建与扩充其他数据结构
 
-![](Operating-System\3.15.JPG)
+![](./Operating-System/3.15.JPG)
 
 
 
@@ -335,9 +335,9 @@ events.
 
 异常是程序本身在运行过程中发生了错误，OS会根据错误的严重程度采取将此进程转入exit状态，或者修复错误后继续执行，或者仅仅是通知用户。
 
-![](Operating-System\3.14.JPG)
+![](./Operating-System/3.14.JPG)
 
-![](Operating-System\3.16.JPG)
+![](./Operating-System/3.16.JPG)
 
 ### 举出三个中断的例子
 
