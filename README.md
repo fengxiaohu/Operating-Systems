@@ -283,7 +283,7 @@ events.
 - Identifies
 - process state information
 - process control information
-  ![](./Operating-System/3.11.JPG)
+  ![](./Operating-System/3.11.jpg)
 
 ### 为什么需要两种模式（user mode/kernel mode）
 
@@ -394,10 +394,8 @@ events.
   - 进程间通信与线程间通信均可以出现
   - 内存管理出现在进程级
   - 资源占用和初始化也出现在进程级
-- ![](./Operating-System/3.11.JPG)
 
-![](./Operating-System/3.11.JPG)
-![](./Operating-System/3.11.JPG)
+![](./Operating-System/3.11.jpg)
 
 ### 为什么线程间的切换开销要比进程间的小
 
