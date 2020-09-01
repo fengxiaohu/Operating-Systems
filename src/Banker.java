@@ -7,14 +7,8 @@ Test case:
     P2          2,0,0           3,2,2
     P3          3,0,2           9,0,2
     P4          2,1,1           2,2,2
-Output:
-Safe sequences are:
-P1-->P2-->P3-->P4 
-P1-->P2-->P4-->P3 
-P1-->P3-->P2-->P4 
-P1-->P2-->P4-->P2 
 
-There are total 4 safe-sequences
+
 */
 
 
@@ -52,20 +46,21 @@ public class Banker {
         {
             if(!marked[i] && is_avaliable(i, allocated, max, need, avaliable))
             {
-                marked[i] = true;
+                marked[i] = true;// assume that process i has already allocated
                 for(int j=0;j<R;j++)
+                
                 {
-                    avaliable[j]+=allocated[i][j];
+                    avaliable[j]+=allocated[i][j]; // avaliable resource + process j released resource
 
                 }
                 safe.add(i);
-                safe_sequence(marked, allocated, max, need, avaliable, safe);
-                safe.removeElement(safe.size()-1);
+                safe_sequence(marked, allocated, max, need, avaliable, safe);// test whether it is safe or not
+                safe.removeElementAt(safe.size()-1);
 
                 marked[i] = false;
                 for(int j=0;j<R;j++)
                 {
-                    avaliable[j] -=allocated[i][j];
+                    avaliable[j] -= allocated[i][j];
                 }
             }
         }
@@ -87,7 +82,23 @@ public class Banker {
     {
        Banker banker = new Banker();
        boolean[] marked = new boolean[P];
+       for(int i=0;i<R;i++)
+       {
+           int sum=0;
+           for(int j=0;j<P;j++)
+           {
+               sum += allocated[j][i];
+           }
+           avaliable[i] = resources[i]-sum;
+       }
        Vector<Integer> safe = new Vector<Integer>();
+       for(int i=0;i<P;i++)
+       {
+           for(int j=0;j<R;j++)
+           {
+               need[i][j] = max[i][j] -allocated[i][j];
+           }
+       }
        System.out.println("Safe sequences are:"); 
        banker.safe_sequence(marked, allocated, max, need, avaliable, safe);
        
