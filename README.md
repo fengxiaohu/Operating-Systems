@@ -1,7 +1,11 @@
 # Operating-Systems
  Operating Systems Internals and Design principles 8th 读书笔记，资源整理
  
- 原版PDF https://lithi.io/file/45df.pdf
+ 原版PDF https://lithi.io/file/45df.pdf（链接貌似失效了）
+ 
+ 百度网盘：https://pan.baidu.com/s/1ewMcDQjsCkswIe3Ixu45kA 提取码：1011 
+ PS. 此资源仅供学术交流，严禁商业行为。如果条件允许，请支持正版
+
  
  lecture slides : 见PPT文件夹
  
