@@ -3,7 +3,9 @@
  
  原版PDF https://lithi.io/file/45df.pdf（链接貌似失效了）
  
- 百度网盘：https://pan.baidu.com/s/1ewMcDQjsCkswIe3Ixu45kA 提取码：1011 
+ 百度网盘：链接：https://pan.baidu.com/s/1wrEWrr-Ylo20gZpA4A2EeA 
+提取码：1011 
+复制这段内容后打开百度网盘手机App，操作更方便哦
  PS. 此资源仅供学术交流，严禁商业行为。如果条件允许，请支持正版
 
  
